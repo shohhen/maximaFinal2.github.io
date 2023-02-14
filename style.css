@@ -653,16 +653,24 @@ input:focus {
   justify-content: center; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .single-welcome-slide {
-      height: 750px; } }
+      height: 750px; }
+      .single-welcome-slide .single-welcome-slide div:nth-of-type(2) {
+        display: none; } }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .single-welcome-slide {
-      height: 600px; } }
+      height: 600px; }
+      .single-welcome-slide .single-welcome-slide div:nth-of-type(2) {
+        display: none; } }
   @media only screen and (max-width: 767px) {
     .single-welcome-slide {
-      height: 900px; } }
+      height: 900px; }
+      .single-welcome-slide .single-welcome-slide div:nth-of-type(2) {
+        display: none; } }
   @media only screen and (min-width: 576px) and (max-width: 767px) {
     .single-welcome-slide {
-      height: 1000px; } }
+      height: 1000px; }
+      .single-welcome-slide .single-welcome-slide div:nth-of-type(2) {
+        display: none; } }
   .single-welcome-slide .background-curve {
     position: absolute;
     width: 70%;
@@ -2070,3 +2078,5 @@ input:focus {
   .uza-contact-form textarea.form-control {
     height: 110px;
     padding: 20px; }
+
+/*# sourceMappingURL=style.css.map */
