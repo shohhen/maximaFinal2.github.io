@@ -1464,6 +1464,8 @@ input:focus {
         font-size: 36px;
         color: #e3000e;
         margin-right: 5px; }
+      .single-blog-post .post-content .post-date img {
+        height: 150px !important; }
     .single-blog-post .post-content .post-title {
       font-size: 24px;
       font-weight: 600;
