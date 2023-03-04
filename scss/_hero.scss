@@ -4,6 +4,8 @@
     display: block;
 }
 
+
+
 .single-welcome-slide {
     display: flex;
     align-items: center;
@@ -11,6 +13,7 @@
 
     @media #{$breakpoint-lg} {
         height: 750px;
+          
         .single-welcome-slide div:nth-of-type(2) {
             display: none;
         }

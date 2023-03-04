@@ -1193,8 +1193,15 @@ input:focus {
       background-color: #e3000e; }
 
 .uza-about-us-area {
-  position: relative;
+  background-position: 100% !important;
   z-index: 1; }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .uza-about-us-area {
+      background-image: url(../img/core-img/bg.jpeg);
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: repeat;
+      background-position: 100% !important; } }
   .uza-about-us-area .about-bg-pattern {
     position: absolute;
     width: 40%;
