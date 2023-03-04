@@ -89,43 +89,34 @@
     background-position: 100% !important;
     z-index: 1;
     background-image: url(../img/core-img/bg1.png); 
-    background-size: cover;
+    background-size: cover;/* 
     background-attachment: fixed;
     background-repeat: repeat;
-    background-position: 100% !important;
+    background-position: 100% !important; */
 
     
         @media #{$breakpoint-lg} {
             background-image: url(../img/core-img/bg1.png); 
-            background-size: cover;
-            background-attachment: fixed;
+            background-size: cover;/* 
+            background-attachment:local;
             background-repeat: repeat;
-            background-position: 100% !important;
+            background-position: 100% !important; */
             
         }
         @media #{$breakpoint-md} {
             background-image: url(../img/core-img/bg1.png); 
             background-size: cover;
-            background-attachment: fixed;
-            background-repeat: repeat;
-            background-position: 100% !important;
             
         }
 
         @media #{$breakpoint-xs} {
             background-image: url(../img/core-img/bg1.png); 
             background-size: cover;
-            background-attachment: fixed;
-            background-repeat: repeat;
-            background-position: 100% !important;
             
         }
         @media #{$breakpoint-sm} {
             background-image: url(../img/core-img/bg1.png); 
             background-size: cover;
-            background-attachment: fixed;
-            background-repeat: repeat;
-            background-position: 100% !important;
             
         }
 
