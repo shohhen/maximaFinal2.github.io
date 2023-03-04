@@ -11,12 +11,11 @@
     align-items: center;
     justify-content: center;
 
+
     @media #{$breakpoint-lg} {
         height: 750px;
           
-        .single-welcome-slide div:nth-of-type(2) {
-            display: none;
-        }
+        
     }
 
     @media #{$breakpoint-md} {

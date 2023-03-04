@@ -653,9 +653,7 @@ input:focus {
   justify-content: center; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .single-welcome-slide {
-      height: 750px; }
-      .single-welcome-slide .single-welcome-slide div:nth-of-type(2) {
-        display: none; } }
+      height: 750px; } }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .single-welcome-slide {
       height: 600px; }
@@ -1194,7 +1192,12 @@ input:focus {
 
 .uza-about-us-area {
   background-position: 100% !important;
-  z-index: 1; }
+  z-index: 1;
+  background-image: url(../img/core-img/bg.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: repeat;
+  background-position: 100% !important; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .uza-about-us-area {
       background-image: url(../img/core-img/bg.jpeg);
