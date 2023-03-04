@@ -1195,9 +1195,10 @@ input:focus {
   z-index: 1;
   background-image: url(../img/core-img/bg1.png);
   background-size: cover;
-  background-attachment: fixed;
-  background-repeat: repeat;
-  background-position: 100% !important; }
+                       /* 
+background-attachment: fixed;
+background-repeat: repeat;
+background-position: 100% !important; */ }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .uza-about-us-area {
       background-image: url(../img/core-img/bg1.png);
