@@ -55,6 +55,9 @@
 
 .classy-nav-container {
     background-color: transparent;
+    background-image: url(../img/bg-img/1414.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 0;
 
     @media #{$breakpoint-xs} {
